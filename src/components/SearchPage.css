@@ -21,3 +21,34 @@
   margin: unset;
   max-width: unset;
 }
+
+.searchPage__options {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.searchPage__options a,
+.searchPage__optionsRight {
+  text-decoration: none;
+  color: gray;
+}
+
+.searchPage__optionsLeft,
+.searchPage__optionsRight {
+  display: flex;
+}
+
+.searchPage__optionsRight {
+  margin-left: 20px;
+}
+
+.searchPage__option {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.searchPage__options a {
+  margin: 5px;
+}
